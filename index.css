@@ -1,0 +1,458 @@
+.container {
+}
+
+/* 
+ * 1. Header
+*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  gap: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 30px;
+}
+
+.header__logo--wrapper {
+  width: 200px;
+}
+.header__logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.header__search {
+  display: flex;
+  margin-right: auto;
+}
+.header__buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+.header__button--wrapper {
+}
+.header__button {
+  width: 32px;
+}
+.header__button--1 {
+  width: 100%;
+}
+.header__button--2 {
+}
+.header__button--3 {
+}
+.header__button--4 {
+}
+.header__button--5 {
+}
+
+/* 
+ * 2. Main
+*/
+
+.main-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main {
+  margin-top: 40px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* 
+ * 2-1. Main Menu
+*/
+
+.main__menu--wrapper {
+}
+
+/* 
+ * 2-2. Main Box
+*/
+
+.menu__box--wrapper {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu__box-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu__box {
+}
+.menu__box:hover {
+  color: rgb(107, 102, 102);
+}
+.menu__box--1 {
+}
+.menu__box--2 {
+}
+.menu__box--3 {
+}
+
+/* 
+ * 2-3. Main Sub menu
+*/
+
+.main__submenu--wrapper {
+}
+.submenu__box--wrapper {
+  list-style: none;
+  overflow: hidden;
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 20px;
+}
+.submenu__box--wrapper:hover {
+  color: gray;
+}
+.submenu__box {
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 100vh;
+}
+.submenu__box--1 {
+}
+.submenu__box--2 {
+  color: blue;
+}
+.submenu__box--3 {
+  color: rgb(235, 109, 130);
+}
+.submenu__box--4 {
+  color: rgb(253, 222, 82);
+}
+.box__gender {
+}
+.submenu__boximage--gender {
+  width: 7px;
+  margin: 0 5px;
+}
+
+/* 
+ * 2-4. Main Slider
+*/
+
+.main__slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.main__slider {
+  display: flex;
+  /* overflow: hidden; */
+  gap: 15px;
+  /* overflow: scroll; */
+  padding-right: 10px;
+  animation: 15s linear infinite sliderAnimation;
+}
+
+@keyframes sliderAnimation {
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.slider__box-wrapper {
+  width: 450px;
+  position: relative;
+}
+
+.slider__box-image {
+  width: 450px;
+  border-radius: 15px;
+}
+
+.slider__box-image--1 {
+}
+.slider__box-image--2 {
+}
+.slider__box-image--3 {
+}
+.slider__box-image--4 {
+}
+.slider__box-image--5 {
+}
+
+.box__title-wrapper {
+  position: absolute;
+  color: white;
+  bottom: 15px;
+}
+
+.box__title {
+  font-weight: bold;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  word-wrap: normal;
+  margin-left: 20px;
+}
+.box__title--primary {
+  font-size: 25px;
+  margin-bottom: 0%;
+}
+.box__title--secondary {
+  font-size: 15px;
+  margin-top: 0%;
+}
+/* 
+ * 2-5. Main Banner
+*/
+
+.main__banner {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.banner__image--coupon {
+  width: 700px;
+}
+
+/* @media only screen and (min-width: 400px) {
+  body {
+    background-color: red;
+  }
+} */
+
+/**
+ main
+*/
+.content {
+  display: flex;
+  gap: 16px;
+}
+
+/* 
+ * 2-6. Main menu
+*/
+.main__home__menu {
+  width: 20%;
+}
+
+.home__seach--wrapper {
+}
+.home__seach {
+}
+.home__seach--1 {
+  font-weight: bold;
+}
+.home__seach--2 {
+}
+.home__seach--3 {
+}
+.home__seach--4 {
+}
+.home__seach--5 {
+}
+.home__seach--6 {
+}
+.home__seach--7 {
+}
+.home__seach--8 {
+}
+.home__seach--9 {
+}
+
+.home__category--wrapper {
+  border-top: 1px solid rgb(134, 134, 134);
+}
+.home__category:not(:first-of-type)::after {
+  content: '>';
+  color: rgb(136, 135, 135);
+}
+
+.category__container {
+}
+.category__button {
+}
+.home__category--1 {
+  font-weight: bold;
+}
+.home__category--2 {
+}
+.home__category--3 {
+}
+.home__category--4 {
+}
+.home__category--5 {
+}
+.home__category--6 {
+}
+.home__category--7 {
+}
+.home__category--8 {
+}
+.home__category--9 {
+}
+.home__category--10 {
+}
+.home__category--11 {
+}
+.home__category--12 {
+}
+.home__category--13 {
+}
+.home__category--14 {
+}
+.home__category--15 {
+}
+.home__category--16 {
+}
+.home__category--17 {
+}
+.home__category--18 {
+}
+.home__category--19 {
+}
+.home__category--20 {
+}
+.home__category--21 {
+}
+.home__category--22 {
+}
+.home__category--23 {
+}
+.home__category--24 {
+}
+.home__category--25 {
+}
+.home__category--26 {
+}
+.home__category--27 {
+}
+.home__category--28 {
+}
+.home__category--29 {
+}
+.home__category--30 {
+}
+.home__category--31 {
+}
+.home__category--32 {
+}
+.home__category--33 {
+}
+.home__category--34 {
+}
+.home__category--35 {
+}
+
+.home__favorite--wrapper {
+  border-top: 1px solid rgb(134, 134, 134);
+}
+.home__favorite {
+}
+.home__favorite--1 {
+  font-weight: bold;
+}
+.home__favorite--2 {
+}
+.home__favorite--3 {
+}
+.home__favorite--4 {
+}
+.home__banner--wrapper {
+}
+.home__banner {
+  width: 200px;
+  border-radius: 10px;
+  margin: 12px 0px;
+}
+.home__banner--1 {
+}
+.home__banner--2 {
+}
+.home__pickup--wrapper {
+}
+.home__pickup {
+}
+.home__pickup--1 {
+  font-size: 20px;
+}
+.home__pickup--image {
+  width: 200px;
+  border-radius: 10px;
+}
+.home__pickup--2 {
+}
+.home__pickup--3 {
+}
+.home__pickup--4 {
+  font-size: 10px;
+  color: #797474;
+}
+.home__pickup--5 {
+}
+.home__pickup--6 {
+  width: 200px;
+  border-radius: 10px;
+}
+.home__pickup--7 {
+}
+.home__pickup--8 {
+  font-size: 10px;
+  color: #797474;
+}
+.home__notice--wrapper {
+}
+.notice__title {
+}
+.notice__delivery {
+}
+.__menu--employment {
+}
+.employment__title {
+  font-weight: bold;
+}
+.employment__text {
+}
+.employment__text--sub {
+  font-size: 10px;
+  color: #797474;
+}
+.main__block {
+}
+
+/* Main Content */
+.main__content {
+  background-color: bisque;
+  width: 100%;
+  display: flex;
+}
+.content__wrapper {
+  display: flex;
+  height: 200px;
+}
+.content__title {
+}
+.content__image {
+}
+.content__icon {
+}
+.content__item {
+}
+.content__price {
+}
+.content__color {
+}
+.footer {
+  background-color: thistle;
+  height: 300px;
+}
+
+.pd6 {
+  padding: 6px;
+}
