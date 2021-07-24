@@ -1,509 +1,1248 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>zozotown</title>
-        <link rel="stylesheet" href="index.css" type="text/css" />
-        <!-- Load icon library -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    </head>
-    <body>
-        <div class="container">
-            <!-- header -->
-            <div class="header">
-                <div class="header__logo--wrapper">
-                    <img class="header__logo" src="https://www.remambo.jp/img/zozotown-logo.png" alt="" />
-                </div>
-                <div class="header__search">
-                    <!-- The form -->
-                    <form class="example" action="action_page.php">
-                        <input type="text" placeholder="Search.." name="search" />
-                        <button type="submit">
-                            <i class="fa fa-search"></i>
-                        </button>
-                    </form>
-                </div>
-                <div class="header__buttons">
-                    <div class="header__button-wrapper">
-                        <p class="header__button header__button--1">ログイン</p>
-                    </div>
-                    <div class="header__button-wrapper">
-                        <img class="header__button header__button--2" src="https://image.flaticon.com/icons/png/512/1827/1827422.png" alt="" />
-                    </div>
-                    <div class="header__button-wrapper">
-                        <img class="header__button header__button--3" src="https://image.flaticon.com/icons/png/512/1077/1077035.png" alt="" />
-                    </div>
-                    <div class="header__button-wrapper">
-                        <img class="header__button header__button--4" src="https://image.flaticon.com/icons/png/512/1170/1170678.png" alt="" />
-                    </div>
-                    <div class="header__button--wrapper">
-                        <img class="header__button header__button--5" src="https://image.flaticon.com/icons/png/512/1828/1828859.png" alt="" />
-                    </div>
-                </div>
-            </div>
-            <!-- main -->
-            <div class="main">
-                <div class="main__menu--wrapper main-container">
-                    <div class="menu__box--wrapper">
-                        <a class="menu__box-link" href="/sayaka.html"> <h4 class="menu__box menu__box--1">すべてのアイテム</h4></a>
-                        <a class="menu__box-link" href="/sayaka2.html"> <h4 class="menu__box menu__box--2">シューズアイテム</h4></a>
-                        <a class="menu__box-link" href="/sayaka3.html">
-                            <h4 class="menu__box menu__box--3">コスメアイテム</h4>
-                        </a>
-                    </div>
-                </div>
-                <div class="main__submenu--wrapper main-container">
-                    <div class="submenu__box--wrapper">
-                        <h5 class="submenu__box submenu__box--1">すべて</h5>
-                        <h5 class="submenu__box submenu__box--2">
-                            <space><img class="submenu__boximage--gender" src="https://img.pngio.com/male-icon-png-102237-free-icons-library-png-blue-man-252_592.jpg" alt="" /></space>メンズ
-                        </h5>
-                        <h5 class="submenu__box submenu__box--3">
-                            <space
-                                ><img
-                                    class="submenu__boximage--gender"
-                                    src="https://www.freeiconspng.com/uploads/symbol-of-woman-icon-15.png
-                    "
-                                    alt="" /></space
-                            >レディース
-                        </h5>
-                        <h5 class="submenu__box submenu__box--4">
-                            <space><img class="submenu__boximage--gender" src="http://www.clker.com/cliparts/2/u/U/A/S/B/yellow-standing-man-icon-hi.png" alt="" /></space>キッズ
-                        </h5>
-                    </div>
-                </div>
-                <div class="main__slider-wrapper">
-                    <div class="main__slider">
-                        <div class="slider__box-wrapper">
-                            <img class="slider__box-image slider__box-image--1" src="https://o.imgz.jp/pc/cms/homebanner/homebanner_zozosale.jpg" alt="" />
-                            <div class="box__title-wrapper">
-                                <p class="box__title box__title--primary">わたしが、とまらん。ZOZOSALE</p>
-                                <p class="box__title box__title--secondary">MAX95%OFF ! 夏セール開催中</p>
-                            </div>
-                        </div>
-                        <div class="slider__box-wrapper">
-                            <img class="slider__box-image slider__box-image--2" src="https://o.imgz.jp/pc/cms/homebanner/homebanner_sandalrank-women-all.jpg" alt="" />
-                            <div class="box__title-wrapper">
-                                <p class="box__title box__title--primary">今、売れている人気サンダルはこれ</p>
-                                <p class="box__title box__title--secondary">みんながゲットしたトレンドサンダルをチェック！</p>
-                            </div>
-                        </div>
-                        <div class="slider__box-wrapper">
-                            <img class="slider__box-image slider__box-image--3" src="https://o.imgz.jp/pc/cms/homebanner/home-banner-zozovilla-open.jpg" alt="" />
-                            <div class="box__title-wrapper">
-                                <p class="box__title box__title--primary">ZOZOVILLAのハイエンドな世界</p>
-                                <p class="box__title box__title--secondary">人気のラグジュアリー＆デザイナーズブランドが集結</p>
-                            </div>
-                        </div>
-                        <div class="slider__box-wrapper">
-                            <img class="slider__box-image slider__box-image--4" src="https://o.imgz.jp/pc/cms/homebanner/home-banner-zozoglass.jpg" alt="" />
-                            <div class="box__title-wrapper">
-                                <p class="box__title box__title--primary">ZOZOGLASS無料予約受付中</p>
-                                <p class="box__title box__title--secondary">あなたの肌の色にピッタリのコスメを見つけよう</p>
-                            </div>
-                        </div>
-                        <div class="slider__box-wrapper">
-                            <img class="slider__box-image slider__box-image--5" src="https://o.imgz.jp/pc/cms/homebanner/homebanner-zozomat.jpg" alt="" />
-                            <div class="box__title-wrapper">
-                                <p class="box__title box__title--primary">計測時間はたった2分！</p>
-                                <p class="box__title box__title--secondary">申し込み無料！ZOZOMATで足型を計測しませんか？</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="main__banner">
-                    <img class="banner__image--coupon" src="https://img-cf.karte.io/image/60516687005f530011532a50::pc_1000_NUU.png" alt="" />
-                </div>
-                <div class="content">
-                    <div class="aside">
-                        <div class="home__seach--wrapper">
-                            <h3 class="home__seach home__seach--1">探す</h3>
-                            <p class="home__seach home__seach--2">ブランドから探す</p>
-                            <p class="home__seach home__seach--3">公式ショップから探す</p>
-                            <p class="home__seach home__seach--4">ランキングから探す</p>
-                            <p class="home__seach home__seach--5">セール対象から探す</p>
-                            <p class="home__seach home__seach--6">クーポン対象から探す</p>
-                            <p class="home__seach home__seach--7">古着から探す</p>
-                            <p lass="home__seach home__seach--8">コーディネートから探す</p>
-                            <p lass="home__seach home__seach--9">こだわり条件から探す</p>
-                        </div>
-                        <div class="home__category--wrapper">
-                            <p class="home__category home__category--1">カテゴリーから探す</p>
-                            <p class="home__category home__category--2">トップス</p>
-                            <p class="home__category home__category--3">ジャケット/アウター</p>
-                            <p class="home__category home__category--4">パンツ</p>
-                            <p class="home__category home__category--5">オールインワン</p>
-                            <p class="home__category home__category--6">スカート</p>
-                            <p class="home__category home__category--7">ワンピース/ドレス</p>
-                            <p class="home__category home__category--8">フォーマルスーツ/小物</p>
-                            <p class="home__category home__category--9">バッグ</p>
-                            <p class="home__category home__category--10">シューズ</p>
-                            <p class="home__category home__category--11">ファッション雑貨</p>
-                            <p class="home__category home__category--12">財布/小物</p>
-                            <p class="home__category home__category--13">腕時計</p>
-                            <p class="home__category home__category--14">ヘアアクセサリー</p>
-                            <p class="home__category home__category--15">アクセサリー</p>
-                            <p class="home__category home__category--16">アンダーウェア</p>
-                            <p class="home__category home__category--17">レッグウェア</p>
-                            <p class="home__category home__category--18">ルームウェア</p>
-                            <p class="home__category home__category--19">帽子</p>
-                            <p class="home__category home__category--20">インテリア</p>
-                            <p class="home__category home__category--21">食器/キッチン</p>
-                            <p class="home__category home__category--22">雑貨/ホビー</p>
-                            <p class="home__category home__category--23">PC・スマホグッズ/家電</p>
-                            <p class="home__category home__category--24">スキンケア</p>
-                            <p class="home__category home__category--25">ベースメイク</p>
-                            <p class="home__category home__category--26">メイクアップ</p>
-                            <p class="home__category home__category--27">ビューティーグッズ</p>
-                            <p class="home__category home__category--28">ボディ・ヘアケア</p>
-                            <p class="home__category home__category--29">フレグランス</p>
-                            <p class="home__category home__category--30">水着/着物・浴衣</p>
-                            <p class="home__category home__category--31">アウトドア/スポーツ</p>
-                            <p class="home__category home__category--32">ママ＆ベビー</p>
-                            <p class="home__category home__category--33">ペットグッズ</p>
-                            <p class="home__category home__category--34">音楽/本・雑誌</p>
-                            <p class="home__category home__category--35">その他</p>
-                        </div>
-                        <div class="home__favorite--wrapper">
-                            <p class="home__favorite home__favorite--1">お気に入り</p>
-                            <p class="home__favorite home__favorite--2">アイテム</p>
-                            <p class="home__favorite home__favorite--3">ブランド</p>
-                            <p class="home__favorite home__favorite--4">ショップ</p>
-                        </div>
-                        <div class="home__banner--wrapper">
-                            <img class="home__banner home__banner--1" src="https://o.imgz.jp/pc/banner/zone/pc_left_villa.jpg" alt="" />
-                        </div>
-                        <img class="home__banner home__banner--2" src="https://o.imgz.jp/pc/banner/zone/pc_left_d2c.jpg" alt="" />
-                        <div class="home__pickup--wrapper">
-                            <p class="home__pickup home__pickup--1">ピックアップ</p>
-                            <div>
-                                <p class="home__pickup home__pickup--2">注目のショップニュース</p>
-                                <div>
-                                    <img class="home__pickup--image" src="https://o.imgz.jp/shoptopics/901/1473769.jpg" alt="" />
-                                </div>
-                                <p class="home__pickup home__pickup--3">【SALE】夏のキッズアイテムが大幅プライスダウン！！</p>
-                                <p class="home__pickup home__pickup--4">B:MING LIFE STORE by BEAMS</p>
-                                <p class="home__pickup home__pickup--5">注目のファッションまとめ</p>
-                                <img class="home__pickup home__pickup--6" src="https://o.imgz.jp/fashionnews/113872/master_640_3.jpg" alt=""></p>
-                                <p class="home__pickup home__pickup--7">雨の日こそラクしよう！ 「4大・雨の日コーデセット」教えます♪</p>
-                                <p class="home__pickup home__pickup--8">#CBK magazine</p>
-                            </div>
-                            <div class="home__notice--wrapper">
-                              <div class="notice__title">お知らせ</div>
-                              <div class="notice__delivery">
-                                <p class="delivery--1">【7/4更新】セールおよび天災による配送への影響について</p>
-                                <p class="delivery--2">詳細はこちら</p>
-                              </div>
-                              <div class="notice__policy">
-                                <p>プライバシーポリシー改定のお知らせ</p>
-                                <p>詳細はこちら</p>
-                              </div>
-                              <div class="notice__virus">
-                               <p>【7/30更新】新型コロナウイルス拡大防止に伴うサービス変更・停止について</p>
-                               <p>詳細はこちら</p>
-                              </div>
-                            </div>
-                            <div class="home__employment">
-                              <p class="employment__title">採用情報</p>
-                              <p class="employment__text">計測プロジェクト推進</p>
-                              <p class="employment__text">中途採用</p>
-                              <p class="employment__text--sub">ZOZOSUIT/ZOZOMAT等</p>
-                              <p class="employment__text">広告事業運営スタッフ</p>
-                              <p class="employment__text--sub">ZOZOTOWN</p>
-                              <p class="employment__text">中途エンジニア・デザイナー</p>
-                              <p class="employment__text--sub">ZOZOTOWN・WEAR</p>
-                              <p class="employment__text">【2022新卒採用】</p>
-                              <p class="employment__text">エンジニア採用</p>
-                              <p class="employment__text--sub">ZOZOTOWN・WEAR</p>
-                              <p class="employment__text">【障がい者採用】</p>
-                              <p class="employment__text">労務事務・商品管理スタッフ</p>
-                              <p class="employment__text--sub">ZOZOTOWN</p>
-                              <p class="employment__text">採用情報一覧</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="main__content">
-                        <p class="content__subtitle">MAX95%オフ！ZOZOSALE対象の</p>
-                            <h2 class="content__title">人気ブランドアイテム</h2>
-                            <div class="content__box">
-                                <div class="content__wrapper">
-                                    <p class="content__icon">タイムセール 21%OFF</p>
-                                    <img class="content__image" src="https://c.imgz.jp/327/55421327/55421327b_3_d_215.jpg" alt="">
-                                    <p class="content__item">Rocky Monroe</p>
-                                    <p class="content__item">セットアップ</p>
-                                    <p class="content__price">￥5,995</p>
-                                    <p class="content__color">全5色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">タイムセール 38%OFF</p>
-                                    <img class="content__image" src="https://c.imgz.jp/860/39972860/39972860b_1_d_215.jpg" alt="">
-                                    <p class="content__item">Carhartt</p>
-                                    <p class="content__item">Tシャツ/カットソー</p>
-                                    <p class="content__price">￥3,960</p>
-                                    <p class="content__color">全17色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">タイムセール 34%OFF</p>
-                                    <img class="content__image" src="https://c.imgz.jp/115/55955115/55955115b_8_d_215.jpg" alt="">
-                                    <p class="content__item">ORiental TRaffic</p>
-                                    <p class="content__item">サンダル</p>
-                                    <p class="content__price">￥4,249</p>
-                                    <p class="content__color">全10色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">タイムセール 10%OFF</p>
-                                    <img class="content__image" src="https://c.imgz.jp/447/16919447/16919447b_2_d_215.jpg" alt="">
-                                    <p class="content__item">aimerfeel</p>
-                                    <p class="content__item">ブラジャー</p>
-                                    <p class="content__price">￥2,475</p>
-                                    <p class="content__color">全25色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">タイムセール 30%OFF</p>
-                                    <img class="content__image" src="https://c.imgz.jp/065/56856065/56856065b_216_d_215.jpg" alt="">
-                                    <p class="content__item">URBAN RESEARCH Sonny Label</p>
-                                    <p class="content__item">ワンピース</p>
-                                    <p class="content__price">￥6,237</p>
-                                    <p class="content__color">全4色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">タイムセール 40%OFF</p>
-                                    <img class="content__image" src="https://c.imgz.jp/086/56564086/56564086b_1_d_215.jpg" alt="">
-                                    <p class="content__item">BEAMS</p>
-                                    <p class="content__item">Tシャツ/カットソー</p>
-                                    <p class="content__price">￥3,300</p>
-                                    <p class="content__color">全4色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">タイムセール 80%OFF</p>
-                                    <img class="content__image" src="https://c.imgz.jp/549/40250549/40250549b_8_d_215.jpg" alt="">
-                                    <p class="content__item">Champion</p>
-                                    <p class="content__item">Tシャツ/カットソー</p>
-                                    <p class="content__price">￥990</p>
-                                    <p class="content__color">全9色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">タイムセール</p>
-                                    <img class="content__image" src="https://c.imgz.jp/566/57287566/57287566b_8_d_215.jpg" alt="">
-                                    <p class="content__item">Girly Doll</p>
-                                    <p class="content__item">セットアップ</p>
-                                    <p class="content__price">￥5,498</p>
-                                    <p class="content__color">全5色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">タイムセール 10%OFF</p>
-                                    <img class="content__image" src="https://c.imgz.jp/195/53618195/53618195b_1_d_215.jpg" alt="">
-                                    <p class="content__item">CONVERSE</p>
-                                    <p class="content__item">Tシャツ/カットソー</p>
-                                    <p class="content__price">￥1,957</p>
-                                    <p class="content__color">全11色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">タイムセール 16%OFF</p>
-                                    <img class="content__image" src="https://c.imgz.jp/370/57001370/57001370b_1_d_215.jpg" alt="">
-                                    <p class="content__item">THE NORTH FACE</p>
-                                    <p class="content__item">Tシャツ/カットソー</p>
-                                    <p class="content__price">￥4,950</p>
-                                    <p class="content__color">全6色</p>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="content__ranking">
-                            <h2 class="content__title">世代別アイテムランキング</h2>
-                            <div class="content__box">
-                        <div class="content__wrapper">
-                            <p class="content__rankingicon content__rankingicon--primary">1</p>
-                            <img class="content__image" src="https://c.imgz.jp/753/53576753/53576753b_144_d_215.jpg" alt="">
-                            <p class="content__item">NIKE</p>
-                            <p class="content__item">サンダル</p>
-                            <p class="content__price">￥11,000</p>
-                            <p class="content__color">全3色</p>
-                        </div>
-                        <div class="content__wrapper">
-                            <p class="content__rankingicon content__rankingicon--secondary">2</p>
-                            <img class="content__image" src="https://c.imgz.jp/192/57625192/57625192b_1_d_215.jpg" alt="">
-                            <p class="content__item">XLARGE</p>
-                            <p class="content__item">Tシャツ/カットソー</p>
-                            <p class="content__price">￥6,050</p>
-                            <p class="content__color">全3色</p>
-                        </div>
-                        <div class="content__wrapper">
-                            <p class="content__rankingicon content__rankingicon--tertiary">3</p>
-                            <img class="content__image" src="https://c.imgz.jp/115/55393115/55393115b_1_d_215.jpg" alt="">
-                            <p class="content__item">NIKE</p>
-                            <p class="content__item">スニーカー</p>
-                            <p class="content__price">￥11,000</p>
-                            <p class="content__color">全2色</p>
-                        </div>
-                        <div class="content__wrapper">
-                            <p class="content__rankingicon">4</p>
-                            <img class="content__image" src="https://c.imgz.jp/191/57625191/57625191b_1_d_215.jpg" alt="">
-                            <p class="content__item">XLARGE</p>
-                            <p class="content__item">Tシャツ/カットソー</p>
-                            <p class="content__price">￥6,600</p>
-                            <p class="content__color">全3色</p>
-                        </div>
-                        <div class="content__wrapper">
-                            <p class="content__rankingicon">5</p>
-                            <img class="content__image" src="https://c.imgz.jp/194/57625194/57625194b_1_d_215.jpg" alt="">
-                            <p class="content__item">XLARGE</p>
-                            <p class="content__item">Tシャツ/カットソー</p>
-                            <p class="content__price">￥6,050</p>
-                            <p class="content__color">全3色</p>
-                        </div>
-                        <div class="content__wrapper">
-                            <p class="content__rankingicon">6</p>
-                            <img class="content__image" src="https://c.imgz.jp/506/59301506/59301506_8_d_215.jpg" alt="">
-                            <p class="content__item">JORDAN BRAND</p>
-                            <p class="content__item">スニーカー</p>
-                            <p class="content__price">￥13,200</p>
-                            <p class="content__color">全1色</p>
-                        </div>
-                        <div class="content__wrapper">
-                            <p class="content__rankingicon">7</p>
-                            <img class="content__image" src="https://c.imgz.jp/457/57004457/57004457b_18_d_215.jpg" alt="">
-                            <p class="content__item">LILL</p>
-                            <p class="content__item">Tシャツ/カットソー</p>
-                            <p class="content__price">￥3,960</p>
-                            <p class="content__color">全8色</p>
-                        </div>
-                        <div class="content__wrapper">
-                            <p class="content__rankingicon">8</p>
-                            <img class="content__image" src="https://c.imgz.jp/640/56930640/56930640_17_d_215.jpg" alt="">
-                            <p class="content__item">A BATHING APE</p>
-                            <p class="content__item">スニーカー</p>
-                            <p class="content__price">￥23,100</p>
-                            <p class="content__color">全1色</p>
-                        </div>
-                        <div class="content__wrapper">
-                            <p class="content__rankingicon">9</p>
-                            <img class="content__image" src="https://c.imgz.jp/413/55844413/55844413b_151_d_215.jpg" alt="">
-                            <p class="content__item">adidas</p>
-                            <p class="content__item">スニーカー</p>
-                            <p class="content__price">￥7,392</p>
-                            <p class="content__color">全1色</p>
-                        </div>
-                        <div class="content__wrapper">
-                            <p class="content__rankingicon">10</p>
-                            <img class="content__image" src="https://c.imgz.jp/437/56236437/56236437_18_d_215.jpg" alt="">
-                            <p class="content__item">New Balance</p>
-                            <p class="content__item">スニーカー</p>
-                            <p class="content__price">￥6,930</p>
-                            <p class="content__color">全2色</p>
-                        </div>
-                        </div>
-                    </div>
-                        <h2 class="content__shop">ZOZOVILLA注目ショップ</h2>
-                        <div class="content__shopbox">
-                        <div class="content__shopwrapper">
-                            <img class="shop__image" src="https://o.imgz.jp/shop/common/shop_2771/shopimage_0.jpg" alt="">
-                            <p class="shop__tittle">CHANEL</p>
-                            <p class="shop__subtittle">シャネル</p>
-                        </div>
-                        <div class="content__shopwrapper">
-                            <img class="shop__image" src="https://o.imgz.jp/shop/common/shop_2686/shopimage_0.jpg" alt="">
-                            <p class="shop__tittle">Dries Van Noten</p>
-                            <p class="shop__subtittle">ドリス・ヴァン・ノッテン</p>
-                        </div>
-                        <div class="content__shopwrapper">
-                            <img class="shop__image" src="https://o.imgz.jp/shop/common/shop_2744/shopimage_0.jpg" alt="">
-                            <p class="shop__tittle">JIL SANDER</p>
-                            <p class="shop__subtittle">ジル サンダー</p>
-                        </div>
-                         <div class="content__shopwrapper">
-                            <img class="shop__image" src="https://o.imgz.jp/shop/common/shop_2561/shopimage_0.jpg" alt="">
-                            <p class="shop__tittle">STELLA McCARTNEY</p>
-                            <p class="shop__subtittle">ステラ マッカートニー</p>
-                        </div>
-                        <div class="content__shopwrapper">
-                            <img class="shop__image" src="https://o.imgz.jp/shop/common/shop_2739/shopimage_0.jpg" alt="">
-                            <p class="shop__tittle">Sisley</p>
-                            <p class="shop__subtittle">シスレー</p>
-                        </div>
-                        </div>
-                            <h2 class="content__title">クーポン対象アイテム</h2>
-                            <div class="content__box">
-                                <div class="content__wrapper">
-                                <p class="content__icon">￥2,000クーポン</p>
-                                <img class="content__image" src="https://c.imgz.jp/331/53745331/53745331b_8_d_215.jpg" alt="">
-                                <p class="content__item">adidas</p>
-                                <p class="content__item">スウェットパンツ</p>
-                                <p class="content__price">￥8,789</p>
-                                <p class="content__color">全3色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">￥1,000クーポン</p>
-                                    <img class="content__image" src="https://c.imgz.jp/460/57519460/57519460b_8_d_215.jpg" alt="">
-                                    <p class="content__item">emi+</p>
-                                    <p class="content__item">シャツ/ブラウス</p>
-                                    <p class="content__price">￥3,013</p>
-                                    <p class="content__color">全7色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">￥2,000クーポン</p>
-                                    <img class="content__image" src="https://c.imgz.jp/216/53594216/53594216_144_d_215.jpg" alt="">
-                                    <p class="content__item">NIKE+</p>
-                                    <p class="content__item">サンダル</p>
-                                    <p class="content__price">￥6,600</p>
-                                    <p class="content__color">全1色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">￥2,000クーポン</p>
-                                    <img class="content__image" src="https://c.imgz.jp/700/56675700/56675700_1_d_215.jpg" alt="">
-                                    <p class="content__item">SHIPS+</p>
-                                    <p class="content__item">Tシャツ/カットソー</p>
-                                    <p class="content__price">￥4,400</p>
-                                    <p class="content__color">全8色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">￥2,000クーポン</p>
-                                    <img class="content__image" src="https://c.imgz.jp/084/56565084/56565084b_31_d_215.jpg" alt="">
-                                    <p class="content__item">manana+</p>
-                                    <p class="content__item">ワンピース</p>
-                                    <p class="content__price">￥4,950</p>
-                                    <p class="content__color">全2色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">￥2,000クーポン</p>
-                                    <img class="content__image" src="https://c.imgz.jp/349/57520349/57520349b_31_d_215.jpg" alt="">
-                                    <p class="content__item">apres les cours</p>
-                                    <p class="content__item">チュニック</p>
-                                    <p class="content__price">￥2,233</p>
-                                    <p class="content__color">全2色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">￥2,000クーポン</p>
-                                    <img class="content__image" src="https://c.imgz.jp/297/58658297/58658297_171_d_215.jpg" alt="">
-                                    <p class="content__item">BREEZE</p>
-                                    <p class="content__item">その他パンツ</p>
-                                    <p class="content__price">￥1,650</p>
-                                    <p class="content__color">全10色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">￥2,000クーポン</p>
-                                    <img class="content__image" src="https://c.imgz.jp/876/34233876/34233876b_8_d_215.jpg" alt="">
-                                    <p class="content__item">Dickies</p>
-                                    <p class="content__item">チノパンツ</p>
-                                    <p class="content__price">￥5,445</p>
-                                    <p class="content__color">全11色</p>
-                                </div>
-                                <div class="content__wrapper">
-                                    <p class="content__icon">￥2,000クーポン</p>
-                                    <img class="content__image" src="https://c.imgz.jp/954/56817954/56817954_14_d_215.jpg">
-                                    <p class="content__item">BEAUTY&YOUTH UNITED ARROWS</p>
-                                    <p class="content__item">Tシャツ/カットソー</p>
-                                    <p class="content__price">￥3,465</p>
-                                    <p class="content__color">全4色</p>
-                                </div>
-                </div>
-                <!-- footer -->
-                <div class="footer">footer
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zozotown</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <!-- Load icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+      <div class="header">
+        <div class="header__logo--wrapper">
+          <img
+            class="header__logo"
+            src="https://www.remambo.jp/img/zozotown-logo.png"
+            alt=""
+          />
         </div>
-    </body>
+        <div class="header__search">
+          <!-- The form -->
+          <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search" />
+            <button type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <div class="header__buttons">
+          <div class="header__button-wrapper">
+            <p class="header__button header__button--1">ログイン</p>
+          </div>
+          <div class="header__button-wrapper">
+            <img
+              class="header__button header__button--2"
+              src="https://image.flaticon.com/icons/png/512/1827/1827422.png"
+              alt=""
+            />
+          </div>
+          <div class="header__button-wrapper">
+            <img
+              class="header__button header__button--3"
+              src="https://image.flaticon.com/icons/png/512/1077/1077035.png"
+              alt=""
+            />
+          </div>
+          <div class="header__button-wrapper">
+            <img
+              class="header__button header__button--4"
+              src="https://image.flaticon.com/icons/png/512/1170/1170678.png"
+              alt=""
+            />
+          </div>
+          <div class="header__button--wrapper">
+            <img
+              class="header__button header__button--5"
+              src="https://image.flaticon.com/icons/png/512/1828/1828859.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!-- main -->
+      <div class="nav">
+        <div class="nav__wrapper">
+          <a class="nav__link" href="/sayaka.html"> すべてのアイテム </a>
+          <a class="nav__link" href="/sayaka2.html"> シューズアイテム </a>
+          <a class="nav__link" href="/sayaka3.html"> コスメアイテム </a>
+        </div>
+      </div>
+      <div class="main__submenu--wrapper main-container">
+        <div class="submenu__box--wrapper">
+          <h5 class="submenu__box submenu__box--1">すべて</h5>
+          <h5 class="submenu__box submenu__box--2">
+            <space
+              ><img
+                class="submenu__boximage--gender"
+                src="https://img.pngio.com/male-icon-png-102237-free-icons-library-png-blue-man-252_592.jpg"
+                alt="" /></space
+            >メンズ
+          </h5>
+          <h5 class="submenu__box submenu__box--3">
+            <space
+              ><img
+                class="submenu__boximage--gender"
+                src="https://www.freeiconspng.com/uploads/symbol-of-woman-icon-15.png
+                    "
+                alt="" /></space
+            >レディース
+          </h5>
+          <h5 class="submenu__box submenu__box--4">
+            <space
+              ><img
+                class="submenu__boximage--gender"
+                src="http://www.clker.com/cliparts/2/u/U/A/S/B/yellow-standing-man-icon-hi.png"
+                alt="" /></space
+            >キッズ
+          </h5>
+        </div>
+      </div>
+      <div class="main__slider-wrapper">
+        <div class="main__slider">
+          <div class="slider__box-wrapper">
+            <img
+              class="slider__box-image slider__box-image--1"
+              src="https://o.imgz.jp/pc/cms/homebanner/homebanner_zozosale.jpg"
+              alt=""
+            />
+            <div class="box__title-wrapper">
+              <p class="box__title box__title--primary">
+                わたしが、とまらん。ZOZOSALE
+              </p>
+              <p class="box__title box__title--secondary">
+                MAX95%OFF ! 夏セール開催中
+              </p>
+            </div>
+          </div>
+          <div class="slider__box-wrapper">
+            <img
+              class="slider__box-image slider__box-image--2"
+              src="https://o.imgz.jp/pc/cms/homebanner/homebanner_sandalrank-women-all.jpg"
+              alt=""
+            />
+            <div class="box__title-wrapper">
+              <p class="box__title box__title--primary">
+                今、売れている人気サンダルはこれ
+              </p>
+              <p class="box__title box__title--secondary">
+                みんながゲットしたトレンドサンダルをチェック！
+              </p>
+            </div>
+          </div>
+          <div class="slider__box-wrapper">
+            <img
+              class="slider__box-image slider__box-image--3"
+              src="https://o.imgz.jp/pc/cms/homebanner/home-banner-zozovilla-open.jpg"
+              alt=""
+            />
+            <div class="box__title-wrapper">
+              <p class="box__title box__title--primary">
+                ZOZOVILLAのハイエンドな世界
+              </p>
+              <p class="box__title box__title--secondary">
+                人気のラグジュアリー＆デザイナーズブランドが集結
+              </p>
+            </div>
+          </div>
+          <div class="slider__box-wrapper">
+            <img
+              class="slider__box-image slider__box-image--4"
+              src="https://o.imgz.jp/pc/cms/homebanner/home-banner-zozoglass.jpg"
+              alt=""
+            />
+            <div class="box__title-wrapper">
+              <p class="box__title box__title--primary">
+                ZOZOGLASS無料予約受付中
+              </p>
+              <p class="box__title box__title--secondary">
+                あなたの肌の色にピッタリのコスメを見つけよう
+              </p>
+            </div>
+          </div>
+          <div class="slider__box-wrapper">
+            <img
+              class="slider__box-image slider__box-image--5"
+              src="https://o.imgz.jp/pc/cms/homebanner/homebanner-zozomat.jpg"
+              alt=""
+            />
+            <div class="box__title-wrapper">
+              <p class="box__title box__title--primary">
+                計測時間はたった2分！
+              </p>
+              <p class="box__title box__title--secondary">
+                申し込み無料！ZOZOMATで足型を計測しませんか？
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main__aside">
+          <div class="home__seach--wrapper">
+            <h3 class="home__seach home__seach--1">探す</h3>
+            <p class="home__seach home__seach--2">ブランドから探す</p>
+            <p class="home__seach home__seach--3">公式ショップから探す</p>
+            <p class="home__seach home__seach--4">ランキングから探す</p>
+            <p class="home__seach home__seach--5">セール対象から探す</p>
+            <p class="home__seach home__seach--6">クーポン対象から探す</p>
+            <p class="home__seach home__seach--7">古着から探す</p>
+            <p lass="home__seach home__seach--8">コーディネートから探す</p>
+            <p lass="home__seach home__seach--9">こだわり条件から探す</p>
+          </div>
+          <div class="home__category--wrapper">
+            <p class="home__category home__category--1">カテゴリーから探す</p>
+            <p class="home__category home__category--2">トップス</p>
+            <p class="home__category home__category--3">ジャケット/アウター</p>
+            <p class="home__category home__category--4">パンツ</p>
+            <p class="home__category home__category--5">オールインワン</p>
+            <p class="home__category home__category--6">スカート</p>
+            <p class="home__category home__category--7">ワンピース/ドレス</p>
+            <p class="home__category home__category--8">
+              フォーマルスーツ/小物
+            </p>
+            <p class="home__category home__category--9">バッグ</p>
+            <p class="home__category home__category--10">シューズ</p>
+            <p class="home__category home__category--11">ファッション雑貨</p>
+            <p class="home__category home__category--12">財布/小物</p>
+            <p class="home__category home__category--13">腕時計</p>
+            <p class="home__category home__category--14">ヘアアクセサリー</p>
+            <p class="home__category home__category--15">アクセサリー</p>
+            <p class="home__category home__category--16">アンダーウェア</p>
+            <p class="home__category home__category--17">レッグウェア</p>
+            <p class="home__category home__category--18">ルームウェア</p>
+            <p class="home__category home__category--19">帽子</p>
+            <p class="home__category home__category--20">インテリア</p>
+            <p class="home__category home__category--21">食器/キッチン</p>
+            <p class="home__category home__category--22">雑貨/ホビー</p>
+            <p class="home__category home__category--23">
+              PC・スマホグッズ/家電
+            </p>
+            <p class="home__category home__category--24">スキンケア</p>
+            <p class="home__category home__category--25">ベースメイク</p>
+            <p class="home__category home__category--26">メイクアップ</p>
+            <p class="home__category home__category--27">ビューティーグッズ</p>
+            <p class="home__category home__category--28">ボディ・ヘアケア</p>
+            <p class="home__category home__category--29">フレグランス</p>
+            <p class="home__category home__category--30">水着/着物・浴衣</p>
+            <p class="home__category home__category--31">アウトドア/スポーツ</p>
+            <p class="home__category home__category--32">ママ＆ベビー</p>
+            <p class="home__category home__category--33">ペットグッズ</p>
+            <p class="home__category home__category--34">音楽/本・雑誌</p>
+            <p class="home__category home__category--35">その他</p>
+          </div>
+          <div class="home__favorite--wrapper">
+            <p class="home__favorite home__favorite--1">お気に入り</p>
+            <p class="home__favorite home__favorite--2">アイテム</p>
+            <p class="home__favorite home__favorite--3">ブランド</p>
+            <p class="home__favorite home__favorite--4">ショップ</p>
+          </div>
+          <div class="home__banner--wrapper">
+            <img
+              class="home__banner home__banner--1"
+              src="https://o.imgz.jp/pc/banner/zone/pc_left_villa.jpg"
+              alt=""
+            />
+          </div>
+          <img
+            class="home__banner home__banner--2"
+            src="https://o.imgz.jp/pc/banner/zone/pc_left_d2c.jpg"
+            alt=""
+          />
+          <div class="home__pickup--wrapper">
+            <p class="home__pickup home__pickup--1">ピックアップ</p>
+            <div>
+              <p class="home__pickup home__pickup--2">注目のショップニュース</p>
+              <div>
+                <img
+                  class="home__pickup--image"
+                  src="https://o.imgz.jp/shoptopics/901/1473769.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="home__pickup home__pickup--3">
+                【SALE】夏のキッズアイテムが大幅プライスダウン！！
+              </p>
+              <p class="home__pickup home__pickup--4">
+                B:MING LIFE STORE by BEAMS
+              </p>
+              <p class="home__pickup home__pickup--5">
+                注目のファッションまとめ
+              </p>
+              <img
+                class="home__pickup home__pickup--6"
+                src="https://o.imgz.jp/fashionnews/113872/master_640_3.jpg"
+                alt=""
+              />
+              <p class="home__pickup home__pickup--7">
+                雨の日こそラクしよう！ 「4大・雨の日コーデセット」教えます♪
+              </p>
+              <p class="home__pickup home__pickup--8">#CBK magazine</p>
+            </div>
+            <div class="home__notice--wrapper">
+              <div class="notice__title">お知らせ</div>
+              <div class="notice__delivery">
+                <p class="delivery--1">
+                  【7/4更新】セールおよび天災による配送への影響について
+                </p>
+                <p class="delivery--2">詳細はこちら</p>
+              </div>
+              <div class="notice__policy">
+                <p>プライバシーポリシー改定のお知らせ</p>
+                <p>詳細はこちら</p>
+              </div>
+              <div class="notice__virus">
+                <p>
+                  【7/30更新】新型コロナウイルス拡大防止に伴うサービス変更・停止について
+                </p>
+                <p>詳細はこちら</p>
+              </div>
+            </div>
+            <div class="home__employment">
+              <p class="employment__title">採用情報</p>
+              <p class="employment__text">計測プロジェクト推進</p>
+              <p class="employment__text">中途採用</p>
+              <p class="employment__text--sub">ZOZOSUIT/ZOZOMAT等</p>
+              <p class="employment__text">広告事業運営スタッフ</p>
+              <p class="employment__text--sub">ZOZOTOWN</p>
+              <p class="employment__text">中途エンジニア・デザイナー</p>
+              <p class="employment__text--sub">ZOZOTOWN・WEAR</p>
+              <p class="employment__text">【2022新卒採用】</p>
+              <p class="employment__text">エンジニア採用</p>
+              <p class="employment__text--sub">ZOZOTOWN・WEAR</p>
+              <p class="employment__text">【障がい者採用】</p>
+              <p class="employment__text">労務事務・商品管理スタッフ</p>
+              <p class="employment__text--sub">ZOZOTOWN</p>
+              <p class="employment__text">採用情報一覧</p>
+            </div>
+          </div>
+        </div>
+        <div class="main__content">
+            <div class="main__banner">
+                <img
+                  src="https://img-cf.karte.io/image/60516687005f530011532a50::pc_1000_NUU.png"
+                  alt=""
+                />
+              </div>
+          <!-- block 1 : popular -->
+          <div class="main__block">
+            <p class="block__subtitle">MAX95%オフ！ZOZOSALE対象の</p>
+            <div class="block__title">
+            <h2>人気ブランドアイテム</h2>
+            <p>すべて見る</p>
+            </div>
+            <div class="block__slider">
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 21%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/327/55421327/55421327b_3_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Rocky Monroe</p>
+                <p class="slider__name">セットアップ</p>
+                <p class="slider__price">￥5,995</p>
+                <p class="slider__color">全5色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 38%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/860/39972860/39972860b_1_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Carhartt</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥3,960</p>
+                <p class="slider__color">全17色</p>
+               
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 34%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/115/55955115/55955115b_8_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">ORiental TRaffic</p>
+                <p class="slider__name">サンダル</p>
+                <p class="slider__price">￥4,249</p>
+                <p class="slider__color">全10色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 10%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/447/16919447/16919447b_2_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">aimerfeel</p>
+                <p class="slider__name">ブラジャー</p>
+                <p class="slider__price">￥2,475</p>
+                <p class="slider__color">全25色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 30%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/065/56856065/56856065b_216_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">URBAN RESEARCH Sonny Label</p>
+                <p class="slider__name">ワンピース</p>
+                <p class="slider__price">￥6,237</p>
+                <p class="slider__color">全4色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 40%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/086/56564086/56564086b_1_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">BEAMS</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥3,300</p>
+                <p class="slider__color">全4色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 80%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/549/40250549/40250549b_8_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Champion</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥990</p>
+                <p class="slider__color">全9色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール</p>
+                  <img
+                    src="https://c.imgz.jp/566/57287566/57287566b_8_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Girly Doll</p>
+                <p class="slider__name">セットアップ</p>
+                <p class="slider__price">￥5,498</p>
+                <p class="slider__color">全5色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 10%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/195/53618195/53618195b_1_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">CONVERSE</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥1,957</p>
+                <p class="slider__color">全11色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 16%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/370/57001370/57001370b_1_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">THE NORTH FACE</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥4,950</p>
+                <p class="slider__color">全6色</p>
+              </div>
+            </div>
+          </div>
+          <!-- block 2 : ranking -->
+          <div class="main__block">
+            <h2 class="block__title">世代別アイテムランキング</h2>
+            <div class="block__slider">
+              <div class="slider__box">
+                <div class="slider__ranking slider__ranking--primary">
+                  <p>1</p>
+                  <img
+                    src="https://c.imgz.jp/753/53576753/53576753b_144_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">NIKE</p>
+                <p class="slider__name">サンダル</p>
+                <p class="slider__price">￥11,000</p>
+                <p class="slider__color">全3色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__ranking slider__ranking--secondary">
+                  <p>2</p>
+                  <img
+                    src="https://c.imgz.jp/275/53608275/53608275b_8_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Java</p>
+                <p class="slider__name">サンダル</p>
+                <p class="slider__price">￥2,699</p>
+                <p class="slider__color">全1色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__ranking slider__ranking--tertiary">
+                  <p>3</p>
+                  <img
+                    src="https://c.imgz.jp/853/53467853/53467853b_8_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">NIKE</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥1,513</p>
+                <p class="slider__color">全3色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__ranking">
+                  <p>4</p>
+                  <img
+                    src="https://c.imgz.jp/524/53479524/53479524b_8_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">NIKE</p>
+                <p class="slider__name">サンダル</p>
+                <p class="slider__price">￥5,363</p>
+                <p class="slider__color">全4色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__ranking">
+                  <p>5</p>
+                  <img
+                    src="https://c.imgz.jp/172/58166172/58166172b_35_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Auntie Rosa Holiday</p>
+                <p class="slider__name">その他パンツ</p>
+                <p class="slider__price">￥3,300</p>
+                <p class="slider__color">全8色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__ranking">
+                  <p>6</p>
+                  <img
+                    src="https://c.imgz.jp/490/53451490/53451490b_2_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Casper John</p>
+                <p class="slider__name">シャツ/ブラウス</p>
+                <p class="slider__price">￥3,960</p>
+                <p class="slider__color">全27色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__ranking">
+                  <p>7</p>
+                  <img
+                    src="https://c.imgz.jp/787/40286787/40286787b_8_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Java</p>
+                <p class="slider__name">サンダル</p>
+                <p class="slider__price">￥2,999</p>
+                <p class="slider__color">全2色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__ranking">
+                  <p>8</p>
+                  <img
+                    src="https://c.imgz.jp/837/55433837/55433837b_292_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">classicalelf</p>
+                <p class="slider__name">その他パンツ</p>
+                <p class="slider__price">￥1,999</p>
+                <p class="slider__color">全4色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__ranking">
+                  <p>9</p>
+                  <img
+                    src="https://c.imgz.jp/467/59582467/59582467b_1_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">APPLEBUM</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥6,930</p>
+                <p class="slider__color">全1色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__ranking">
+                  <p>10</p>
+                  <img
+                    src="https://c.imgz.jp/126/58927126/58927126b_14_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">CANAL JEAN</p>
+                <p class="slider__name">ジャンパースカート</p>
+                <p class="slider__price">￥12,320</p>
+                <p class="slider__color">全1色</p>
+              </div>
+            </div>
+          </div>
+          <!-- block 3 : shop -->
+          <div class="main__block">
+            <h2 class="block__title">ZOZOVILLA注目ショップ</h2>
+            <div class="block__shop">
+              <div class="slider__shop">
+                  <img
+                    src="https://o.imgz.jp/shop/common/shop_2771/shopimage_0.jpg"
+                    alt=""
+                  />
+                <p class="slider__brand">CHANEL</p>
+                <p class="slider__name">シャネル</p>
+              </div>
+              <div class="slider__shop">
+                <img
+                  src="https://o.imgz.jp/shop/common/shop_2686/shopimage_0.jpg"
+                  alt=""
+                />
+                <p class="slider__brand">Dries Van Noten</p>
+                <p class="slider__name">ドリス・ヴァン・ノッテン</p>
+              </div>
+              <div class="slider__shop">
+                <img
+                  src="https://o.imgz.jp/shop/common/shop_2744/shopimage_0.jpg"
+                  alt=""
+                />
+                <p class="slider__brand">JIL SANDER</p>
+                <p class="slider__name">ジル サンダー</p>
+              </div>
+              <div class="slider__shop">
+                <img
+                  src="https://o.imgz.jp/shop/common/shop_2561/shopimage_0.jpg"
+                  alt=""
+                />
+                <p class="slider__brand">STELLA McCARTNEY</p>
+                <p class="slider__name">ステラ マッカートニー</p>
+              </div>
+              <div class="slider__shop">
+                <img
+                  src="https://o.imgz.jp/shop/common/shop_2739/shopimage_0.jpg"
+                  alt=""
+                />
+                <p class="slider__brand">Sisley</p>
+                <p class="slider__name">シスレー</p>
+              </div>
+            </div>
+          </div>
+          <!-- block 4 : item -->
+          <div class="main__block">
+            <h2 class="block__title">クーポン対象アイテム</h2>
+            <div class="block__slider">
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 21%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/170/56531170/56531170_232_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">BEAUTY&YOUTH UNITED ARROWS</p>
+                <p class="slider__name">ワンピース</p>
+                <p class="slider__price">￥8,250</p>
+                <p class="slider__color">全6色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 38%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/399/57660399/57660399_20_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">UNITED ARROWS</p>
+                <p class="slider__name">シャツ/ブラウス</p>
+                <p class="slider__price">￥10,010</p>
+                <p class="slider__color">全2色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 34%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/412/53951412/53951412b_22_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">NEUNA</p>
+                <p class="slider__name">トートバッグ</p>
+                <p class="slider__price">￥3,366</p>
+                <p class="slider__color">全5色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 10%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/172/58166172/58166172b_19_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Auntie Rosa Holiday</p>
+                <p class="slider__name">その他パンツ</p>
+                <p class="slider__price">￥3,300</p>
+                <p class="slider__color">全8色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 30%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/317/52377317/52377317b_20_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">tiptop</p>
+                <p class="slider__name">シャツ/ブラウス</p>
+                <p class="slider__price">￥2,959</p>
+                <p class="slider__color">全8色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 40%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/120/53807120/53807120b_8_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">THE NORTH FACE</p>
+                <p class="slider__name">ハット</p>
+                <p class="slider__price">￥7,990</p>
+                <p class="slider__color">全1色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 80%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/765/56529765/56529765_20_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Teva</p>
+                <p class="slider__name">サンダル</p>
+                <p class="slider__price">￥5,104</p>
+                <p class="slider__color">全2色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール</p>
+                  <img
+                    src="https://c.imgz.jp/938/56313938/56313938_10_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Coleman</p>
+                <p class="slider__name">アウトドアグッズ</p>
+                <p class="slider__price">￥15,400</p>
+                <p class="slider__color">全1色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 10%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/490/53451490/53451490b_38_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Casper John</p>
+                <p class="slider__name">シャツ/ブラウス</p>
+                <p class="slider__price">￥3,960</p>
+                <p class="slider__color">全27色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 16%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/729/53647729/53647729b_38_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">NEUNA</p>
+                <p class="slider__name">ワンピース</p>
+                <p class="slider__price">￥3,273</p>
+                <p class="slider__color">全2色</p>
+              </div>
+            </div>
+          </div>
+          <!-- block 5 : cosme -->
+          <div class="main__block">
+            <p class="block__subtitle">各カテゴリ売上1位のアイテム集めました</p>
+            <h2 class="block__title">水曜更新！今週のNo.1コスメ</h2>
+            <div class="block__slider">
+              <div class="slider__box">
+                <div class="slider__image">
+                  <img
+                    src="https://c.imgz.jp/095/58260095/58260095b_13741_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">DIOR</p>
+                <p class="slider__name">アイシャドウ</p>
+                <p class="slider__price">￥8,360</p>
+                <p class="slider__color">全13色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <img
+                    src="https://c.imgz.jp/833/58196833/58196833b_13728_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">DIOR</p>
+                <p class="slider__name">コンシーラー</p>
+                <p class="slider__price">￥4,620</p>
+                <p class="slider__color">全7色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <img
+                    src="https://c.imgz.jp/982/58392982/58392982b_100_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">DIOR</p>
+                <p class="slider__name">フェイスパウダー</p>
+                <p class="slider__price">￥7,700</p>
+                <p class="slider__color">全4色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <img
+                    src="https://c.imgz.jp/515/58519515/58519515_14635_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">CHANEL</p>
+                <p class="slider__name">マニキュア/ジェルネイル</p>
+                <p class="slider__price">￥3,520</p>
+                <p class="slider__color">全35色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <img
+                    src="https://c.imgz.jp/562/58260562/58260562b_13656_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">DIOR</p>
+                <p class="slider__name">口紅/リップティント/グロス</p>
+                <p class="slider__price">￥4,070</p>
+                <p class="slider__color">全8色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <img
+                    src="https://c.imgz.jp/274/56311274/56311274b_39_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">JO MALONE LONDON</p>
+                <p class="slider__name">香水</p>
+                <p class="slider__price">￥8,800</p>
+                <p class="slider__color">全1色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <img
+                    src="https://c.imgz.jp/271/56311271/56311271b_12334_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Estee Lauder</p>
+                <p class="slider__name">ファンデーション</p>
+                <p class="slider__price">￥6,600</p>
+                <p class="slider__color">全10色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <img
+                    src="https://c.imgz.jp/457/56528457/56528457b_26_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">moremo</p>
+                <p class="slider__name">ヘアオイル/ヘアミルク</p>
+                <p class="slider__price">￥1,738</p>
+                <p class="slider__color">全1色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <img
+                    src="https://c.imgz.jp/979/59062979/59062979b_13488_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">DIOR</p>
+                <p class="slider__name">スキンケアキット/ギフトセット</p>
+                <p class="slider__price">￥11,000</p>
+                <p class="slider__color">全1色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <img
+                    src="https://c.imgz.jp/707/59063707/59063707_14249_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">CHANEL</p>
+                <p class="slider__name">ハイライト/シェーディング</p>
+                <p class="slider__price">￥6,050</p>
+                <p class="slider__color">全4色</p>
+              </div>
+            </div>
+          </div>
+          <!-- block 6 : cateory -->
+          <div class="main__block">
+            <p class="block__subtitle">幅広い着こなしを楽しめる</p>
+            <h2 class="block__title">セール中のシンプル無地T</h2>
+            <div class="block__slider">
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 21%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/801/53469801/53469801b_1_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">CONVERSE</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥1,958</p>
+                <p class="slider__color">全8色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 38%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/472/39504472/39504472b_2_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">PRO CLUB</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥2,525</p>
+                <p class="slider__color">全7色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 34%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/949/37213949/37213949b_388_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">KANGOL</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥1,650</p>
+                <p class="slider__color">全52色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 10%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/222/55531222/55531222b_1_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Champion</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥1,199</p>
+                <p class="slider__color">全13色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 30%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/014/56381014/56381014b_1_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">U.S. POLO ASSN.</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥2,860</p>
+                <p class="slider__color">全18色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 40%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/537/22050537/22050537b_1_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Champion</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥990</p>
+                <p class="slider__color">全12色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 80%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/945/53316945/53316945b_1_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Champion</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥1,100</p>
+                <p class="slider__color">全12色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール</p>
+                  <img
+                    src="https://c.imgz.jp/156/30576156/30576156B_1_D_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">GILDAN</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥990</p>
+                <p class="slider__color">全49色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 10%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/354/55531354/55531354b_159_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">GILDAN</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥888</p>
+                <p class="slider__color">全12色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 16%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/683/37250683/37250683b_8_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">classicalelf</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥999</p>
+                <p class="slider__color">全5色</p>
+              </div>
+            </div>
+          </div>
+          <!-- block 7 : newitem -->
+          <div class="main__block">
+            <p class="block__subtitle">トレンドを取り入れてこなれ感をプラス</p>
+            <h2 class="block__title">注目の新作&予約アイテム</h2>
+            <div class="block__slider">
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 21%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/875/59196875/59196875b_14_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">PREFERIR</p>
+                <p class="slider__name">ドレス</p>
+                <p class="slider__price">￥13,376</p>
+                <p class="slider__color">全4色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 38%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/609/59095609/59095609b_8_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Vivian</p>
+                <p class="slider__name">ブーツ</p>
+                <p class="slider__price">￥4,480</p>
+                <p class="slider__color">全3色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 34%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/898/59196898/59196898b_17_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">PREFERIR</p>
+                <p class="slider__name">ドレス</p>
+                <p class="slider__price">￥11,495</p>
+                <p class="slider__color">全4色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 10%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/720/59365720/59365720b_21_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">Danton</p>
+                <p class="slider__name">ショルダーバッグ</p>
+                <p class="slider__price">￥7,150</p>
+                <p class="slider__color">全4色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 30%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/820/59582820/59582820b_16_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">titty&Co.</p>
+                <p class="slider__name">ワンピース</p>
+                <p class="slider__price">￥9,889</p>
+                <p class="slider__color">全3色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 40%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/627/59439627/59439627_291_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">SENSE OF PLACE by URBAN RESEARCH</p>
+                <p class="slider__name">Tシャツ/カットソー</p>
+                <p class="slider__price">￥4,290</p>
+                <p class="slider__color">全3色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 80%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/612/59129612/59129612b_8_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">SALON adam et rope'</p>
+                <p class="slider__name">ローファー</p>
+                <p class="slider__price">￥14,850</p>
+                <p class="slider__color">全3色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール</p>
+                  <img
+                    src="https://c.imgz.jp/590/59405590/59405590_291_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">SENSE OF PLACE by URBAN RESEARCH</p>
+                <p class="slider__name">その他パンツ</p>
+                <p class="slider__price">￥4,290</p>
+                <p class="slider__color">全6色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 10%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/944/58888944/58888944b_99_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">SHAREEF</p>
+                <p class="slider__name">シャツ/ブラウス</p>
+                <p class="slider__price">￥27,500</p>
+                <p class="slider__color">全3色</p>
+              </div>
+              <div class="slider__box">
+                <div class="slider__image">
+                  <p>タイムセール 16%OFF</p>
+                  <img
+                    src="https://c.imgz.jp/825/58558825/58558825b_50_d_215.jpg"
+                    alt=""
+                  />
+                </div>
+                <p class="slider__brand">who's who Chico</p>
+                <p class="slider__name">シャツ/ブラウス</p>
+                <p class="slider__price">￥6,490</p>
+                <p class="slider__color">全4色</p>
+              </div>
+            </div>
+          </div>
+          <!-- block 8 : villashop-->
+          <div class="main__block">
+            <p class="block__subtitle">ラグジュアリー＆デザイナーズ</p>
+            <h2 class="block__title">ZOZOVILLA取扱いショップ</h2>
+            <div class="block__villashop">
+              <div class="slider__villashop">
+                  <img
+                    src="https://o.imgz.jp/shop/common/shop_1301/shopimage_0.jpg"
+                    alt=""
+                  />
+                <p class="slider__brand">SOPH.</p>
+                <p class="slider__name">ソフ</p>
+              </div>
+              <div class="slider__villashop">
+                <img
+                  src="https://o.imgz.jp/shop/common/shop_1118/shopimage_0.jpg"
+                  alt=""
+                />
+                <p class="slider__brand">Saturdays NYC</p>
+                <p class="slider__name">サタデーズ ニューヨークシティ</p>
+              </div>
+              <div class="slider__villashop">
+                <img
+                  src="https://o.imgz.jp/shop/common/shop_1347/shopimage_0.jpg"
+                  alt=""
+                />
+                <p class="slider__brand">POLO RALPH LAUREN</p>
+                <p class="slider__name">ポロ ラルフローレン</p>
+              </div>
+              <div class="slider__villashop">
+                <img
+                  src="https://o.imgz.jp/shop/common/shop_2754/shopimage_0.jpg"
+                  alt=""
+                />
+                <p class="slider__brand">Celvoke</p>
+                <p class="slider__name">セルヴォ―ク</p>
+              </div>
+              <div class="slider__villashop">
+                <img
+                  src="https://o.imgz.jp/shop/common/shop_2688/shopimage_0.jpg"
+                  alt=""
+                />
+                <p class="slider__brand">MM6 Maison Margiela</p>
+                <p class="slider__name">MM6 メゾンマルジェラ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="footer">footer</div>
+    </div>
+  </body>
 </html>
